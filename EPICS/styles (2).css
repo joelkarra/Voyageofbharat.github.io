@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #333;
+}
+
+header h1 .icon-wallet {
+    margin-right: 10px;
+}
+
+.add-expense-btn {
+    background-color: #5a67d8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-expense-btn:hover {
+    background-color: #434190;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.overview, .recent-expenses, .all-expenses {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.overview h2, .recent-expenses h2, .all-expenses h2 {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.overview h2 .icon-overview, .recent-expenses h2 .icon-recent {
+    margin-right: 10px;
+}
+
+.amount {
+    font-size: 36px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.all-expenses p {
+    color: #666;
+}
